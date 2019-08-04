@@ -8,17 +8,17 @@ Both Culture Squad and Internet of Humans use a cache api at api.particip.io whi
 
 The Participio website should have the following sections:
 
-– A "hero" banner, similar to https://internetofhumans.eu with text "A community collecting, curating and building software for participatory culture". Not dynamic. Should have button to "Join the community".
+ * A "hero" banner, similar to https://internetofhumans.eu with text "A community collecting, curating and building software for participatory culture". Not dynamic. Should have button to "Join the community".
 
-– "How to Participate" section, also similar to that on https://internetofhumans.eu/. Not dynamic. Copy TBD. Basically, will explain that Participio exists both to collect good existing apps for participatory culture and to develop new stuff. People can submit their own projects by making a post on the platform which can then be tagged as a project if it's relevant and mature enough.
+ * "How to Participate" section, also similar to that on https://internetofhumans.eu/. Not dynamic. Copy TBD. Basically, will explain that Participio exists both to collect good existing apps for participatory culture and to develop new stuff. People can submit their own projects by making a post on the platform which can then be tagged as a project if it's relevant and mature enough.
 
-– Projects section. List of projects with image and some text. Could for example be displayed like in the "Our projects" section on https://culturesquad.org/. Projects are retrieved through the webcontent-participio-project tag. Clicking a project should bring you to a dynamically generated page based on the content of that post, like is the case with the events on the Culture Squad site (example: https://culturesquad.org/event/save-the-date-culture-culture-brussels-june-28/10142/). Page should also contain a button to "Join the conversation" linking to the thread. By the way, we will also add Pretix, Loomio and other stuff here as examples of good open source shit to use.
+ * Projects section. List of projects with image and some text. Could for example be displayed like in the "Our projects" section on https://culturesquad.org/. Projects are retrieved through the webcontent-participio-project tag. Clicking a project should bring you to a dynamically generated page based on the content of that post, like is the case with the events on the Culture Squad site (example: https://culturesquad.org/event/save-the-date-culture-culture-brussels-june-28/10142/). Page should also contain a button to "Join the conversation" linking to the thread. By the way, we will also add Pretix, Loomio and other stuff here as examples of good open source shit to use.
 
-– Use cases section. List of use cases for the tools curated by Participio. This section is similar to the Projects section, but should be different enough that they can easily be told apart. For example, it could look similar to "Latest Topics", and when a card is clicked you are brought to a dynamically generated page like for the projects. This content is retrieved through the webcontent-participio-example tag.
+ * Use cases section. List of use cases for the tools curated by Participio. This section is similar to the Projects section, but should be different enough that they can easily be told apart. For example, it could look similar to "Latest Topics", and when a card is clicked you are brought to a dynamically generated page like for the projects. This content is retrieved through the webcontent-participio-example tag.
 
-– Latest conversations section. This is a curated list of recent conversations. List could look similar to "Latest events" section at https://internetofhumans.eu. This content is retrieved through webcontent-participio-featured.
+ * Latest conversations section. This is a curated list of recent conversations. List could look similar to "Latest events" section at https://internetofhumans.eu. This content is retrieved through webcontent-participio-featured.
 
-– Partners section, also similar to http://opencare.cc/. Including Edgeryders, Blivande, The Borderland, Kulturbryggan.
+ * Partners section, also similar to http://opencare.cc/. Including Edgeryders, Blivande, The Borderland, Kulturbryggan.
 
 ## Site navigation 
 
