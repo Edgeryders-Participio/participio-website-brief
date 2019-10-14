@@ -1,8 +1,8 @@
 # Participio website brief 
 
-A website to present the projects collected and funded by the Participio project. Most of the content on the site will be retrieved from the Edgeryders Discourse platform by querying specific tags. This way of using Discourse as a CMS for websites has been done on two previous occasions, Edgeryders [Culture Squad](https://culturesquad.org/) ([Git repo](https://github.com/Edgeryders-Participio/culturesquad-site)) and [Internet of Humans](https://internetofhumans.eu/) ([Git repo](https://github.com/Edgeryders-Participio/NGI)). 
+A website to present the projects collected and funded by the Participio project. Most of the content on the site will be retrieved from the Edgeryders Discourse platform by querying specific tags. This way of using Discourse as a CMS for websites has been done before, for the [Edgeyrders Festival](https://festival.edgeryders.eu/), [NGI Exchange](https://exchange.ngi.eu/) project, and [Wellbeing in Europe](https://wellbeing.edgeryders.eu/) project. 
 
-Both Culture Squad and Internet of Humans use a cache api at api.particip.io which caches content to not be restricted to the rate limits of the Discourse API. Any JSON response can be retrieved using this pattern: "api.particip.io/get-data?endpoint=http://edgeryders.eu/tags/webcontent-culturesquad-member" 
+These sites get their content dynamically from the Edgeryders.eu Discourse, through a custom built middleware caching app ([code on GitHub](https://github.com/edgeryders/edgeryders-now-api) and hosted at https://edgeryders.herokuapp.com. This new website for the participio project should also use this cache app. For now, fork the Edgeryders Now app, modify it and host it separately and then we will then merge changes into the main repo once it's done.
 
 ## Site sections
 
@@ -12,18 +12,18 @@ The Participio website should have the following sections:
 
  * "How to Participate" section, also similar to that on https://internetofhumans.eu/. Not dynamic. Copy TBD. Basically, will explain that Participio exists both to collect good existing apps for participatory culture and to develop new stuff. People can submit their own projects by making a post on the platform which can then be tagged as a project if it's relevant and mature enough.
 
- * Projects section. List of projects with image and some text. Could for example be displayed like in the "Our projects" section on https://culturesquad.org/. Projects are retrieved through the [webcontent-participio-project tag](https://edgeryders.eu/tags/webcontent-participio-project). Clicking a project should bring you to a dynamically generated page based on the content of that post, like is the case with the events on the Culture Squad site (example: https://culturesquad.org/event/save-the-date-culture-culture-brussels-june-28/10142/). Page should also contain a button to "Join the conversation" linking to the thread. By the way, we will also add Pretix (and our custom stuff?), Loomio and other stuff here as examples of good open source shit to use.
+ * Projects section. List of projects with image and some text. Could for example be displayed like in the "The People" section on https://festival.edgeryders.eu. Projects are retrieved through the [webcontent-participio-project tag](https://edgeryders.eu/tags/webcontent-participio-project). Clicking a project should bring you to the thread.
 
- * Use cases section. List of use cases for the tools curated by Participio. This section is similar to the Projects section, but should be different enough that they can easily be told apart. For example, it could look similar to "Latest Topics", and when a card is clicked you are brought to a dynamically generated page like for the projects. This content is retrieved through the [webcontent-participio-example tag](https://edgeryders.eu/tags/webcontent-participio-example) tag.
+ * Use cases section. List of use cases for the tools curated by Participio. This section is similar to the Projects section, but should be different enough that they can easily be told apart. This content is retrieved through the [webcontent-participio-example tag](https://edgeryders.eu/tags/webcontent-participio-example) tag.
 
- * Latest conversations section. This is a curated list of recent conversations. List could look similar to "Latest events" section at https://internetofhumans.eu. This content is retrieved through [webcontent-participio-featured tag](https://edgeryders.eu/tags/webcontent-participio-featured).
+ * Latest conversations section. This is a curated list of recent conversations. List could look similar to "Latest events" section at https://exchange.ngi.eu/. This content is retrieved through [webcontent-participio-featured tag](https://edgeryders.eu/tags/webcontent-participio-featured).
 
- * Partners section, also similar to http://opencare.cc/. Including Edgeryders, Blivande, The Borderland, Kulturbryggan.
+ * Partners section, similar to the "What else are we working on?" at https://festival.edgeryders.eu/. Including Edgeryders, Blivande, The Borderland, Kulturbryggan.
 
 ## Site navigation 
 
-Top menu similar to that on https://internetofhumans.eu, with links to Participate, Projects, Use cases
+Top menu similar to that on https://festival.edgeryders.eu/, with links to Participate, Projects, Use cases
 
 ## Notes
 
-As always, tell me if I'm being an idiot or requesting stupid stuff that we could solve in a saner way. Working with the two codebases available, there are examples for how to do all of the things above, but there is a lot of room for improvement. Also, I don't really have any graphical profile for you to work with, apart from that you might detect some slight consistency between the three sites mentioned above. 
+You can get a lot of this for free by starting with the code available at https://github.com/edgeryders/festival. However, the design can't be identical to that site and needs to differ substantially. I leave it up to you to come up with a good style for this as long as you feedback with me.
