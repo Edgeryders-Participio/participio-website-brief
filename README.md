@@ -2,7 +2,7 @@
 
 A website to present the projects collected and funded by the Participio project. Most of the content on the site will be retrieved from the Edgeryders Discourse platform by querying specific tags. This way of using Discourse as a CMS for websites has been done before, for the [Edgeyrders Festival](https://festival.edgeryders.eu/), [NGI Exchange](https://exchange.ngi.eu/) project, and [Wellbeing in Europe](https://wellbeing.edgeryders.eu/) project. 
 
-These sites get their content dynamically from the Edgeryders.eu Discourse, through a custom built middleware caching app ([code on GitHub](https://github.com/edgeryders/edgeryders-now-api) and hosted at https://edgeryders.herokuapp.com. This new website for the participio project should also use this cache app. For now, fork the Edgeryders Now app, modify it and host it separately and then we will then merge changes into the main repo once it's done.
+These sites get their content dynamically from the Edgeryders.eu Discourse, through a custom built middleware caching app, [code on GitHub](https://github.com/edgeryders/edgeryders-now-api) and hosted at https://edgeryders.herokuapp.com. This new website for the participio project should also use this cache app. For now, fork the Edgeryders Now app, modify it and host it separately and then we will then merge changes into the main repo once it's done.
 
 ## Site sections
 
@@ -23,6 +23,10 @@ The Participio website should have the following sections:
 ## Site navigation 
 
 Top menu similar to that on https://festival.edgeryders.eu/, with links to Participate, Projects, Use cases
+
+## Technical requirements
+
+When you are done, you should be able to generate a completely stand alone client-side javascript webapp that does not require a server do anything but host the static files.
 
 ## Notes
 
