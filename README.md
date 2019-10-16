@@ -8,9 +8,9 @@ These sites get their content dynamically from the Edgeryders.eu Discourse, thro
 
 The Participio website should have the following sections:
 
- * A "hero" banner, similar to https://internetofhumans.eu with text "A community collecting, curating and building software for participatory culture". Not dynamic. Should have button to "Join the community".
+ * A "hero" banner, similar to https://exchange.ngi.eu/ with text "A community collecting, curating and building software for participatory culture". Not dynamic. Should have button to "Join the community".
 
- * "How to Participate" section, also similar to that on https://internetofhumans.eu/. Not dynamic. Copy TBD. Basically, will explain that Participio exists both to collect good existing apps for participatory culture and to develop new stuff. People can submit their own projects by making a post on the platform which can then be tagged as a project if it's relevant and mature enough.
+ * "How to Participate" section, also similar to that on https://exchange.ngi.eu/. Not dynamic. Copy TBD. Basically, will explain that Participio exists both to collect good existing apps for participatory culture and to develop new stuff. People can submit their own projects by making a post on the platform which can then be tagged as a project if it's relevant and mature enough.
 
  * Projects section. List of projects with image and some text. Could for example be displayed like in the "The People" section on https://festival.edgeryders.eu. Projects are retrieved through the [webcontent-participio-project tag](https://edgeryders.eu/tags/webcontent-participio-project). Clicking a project should bring you to the thread.
 
